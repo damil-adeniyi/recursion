@@ -15,7 +15,6 @@ function fibs(n) {
 
 // 2. Recursive implementation
 function fibsRec(n) {
-  console.log("This was printed recursively");
 
   if (n <= 0) return [];
   if (n === 1) return [0];
