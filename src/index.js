@@ -1,4 +1,5 @@
 import "./styles.css";
+import {mergeSort} from "./mergeSort.js";
 // 1. Iterative implementation
 function fibs(n) {
   if (n <= 0) return [];
@@ -38,3 +39,8 @@ console.log(fibsRec(0)); // []
 console.log(fibsRec(1)); // [0]
 console.log(fibsRec(2)); // [0, 1]
 console.log(fibsRec(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
+
+//4 Testing mergeSort function
+console.log(mergeSort([73]));
+console.log(mergeSort([3, 2, 1, 13, 8, 5, 0, 1]));
+
